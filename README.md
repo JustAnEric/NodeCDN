@@ -13,3 +13,12 @@ A simple library that transforms JavaScript into a better platform.
 1. Download the latest ZIP file from [Releases](https://github.com/WWEMGamer2/NodeCDN/releases/tag/StandaloneInstalls)
 2. UnZIP, then move to your website's asset directory
 3. Initialise it like in this example here (change the src to your corresponding path): `<script class="nodecdn-init standalone" src="assets/NodeCDN/init/index.min.js"></script>`
+
+## Start coding
+- To initialise in JavaScript, copy and paste this code into your script file:
+```javascript
+nd = new Node(); //initialise the NodeCDN minimal js script
+nd.Client('key'); //initialise the client
+
+Init();
+```
