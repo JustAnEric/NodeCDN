@@ -41,7 +41,7 @@ app.run()
 
 ```html
 <!--Put before body tag -->
-<script src="nodecdn/dist.min.js"></script>
+<script src="nodecdn/dist"></script>
 <script>
 
 </script>
