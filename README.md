@@ -7,7 +7,7 @@ A simple library that transforms JavaScript into a better platform.
 
 ## Initialising on the backend
 - Python (Flask):
-  `pip install nodecdnbackend` or use your Package Manager to search for `nodecdnbackend`.
+  `pip install nodecdn` or use your Package Manager to search for `nodecdn`.
   
 ## For standalone installs:
 1. Download the latest ZIP file from [Releases](https://github.com/WWEMGamer2/NodeCDN/releases/tag/StandaloneInstalls)
@@ -21,4 +21,28 @@ nd = new Node(); //initialise the NodeCDN minimal js script
 nd.Client('key'); //initialise the client
 
 Init();
+```
+
+- To initalise in Python, copy and paste this code into your script files:
+```python
+# This is the file where your Flask server will be
+
+from flask import Flask
+from nodecdn import backend, frontend
+
+app = Flask('app')
+
+@app.route('/')
+def index(): return "home"
+
+backend.init(app);
+app.run()
+```
+
+```html
+<!--Put before body tag -->
+<script src="nodecdn/dist.min.js"></script>
+<script>
+
+</script>
 ```
