@@ -2,7 +2,7 @@
 A simple library that transforms JavaScript into a better platform.
 
 ## Installation
-- For client sides: `<script class="nodecdn-init" src="https://hostereric.herokuapp.com/NodeCDN/index.min.js"></script>`
+- For client sides: `<script class="nodecdn-init" src="https://hostereric.herokuapp.com/NodeCDN/init/index.min.js"></script>`
 - For backend: Go down to the [backend section](https://github.com/WWEMGamer2/NodeCDN/blob/main/README.md#initialising-on-the-backend).
 
 ## Initialising on the backend
