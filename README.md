@@ -40,9 +40,11 @@ app.run()
 ```
 
 ```html
-<!--Put before body tag -->
+<!--Put before closing body tag -->
 <script src="nodecdn/dist"></script>
 <script>
 
 </script>
 ```
+
+After you have done this, you can read our docs here: https://nodecdndocs.readthedocs.io
